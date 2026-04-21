@@ -9,7 +9,7 @@ pip install gym gym-super-mario-bros nes-py numpy torch
 
 ## Training
 
-In `main.py`, uncomment `main()` and comment out `test_best_model()` at the bottom:
+In `genetic_mario.py.py`, uncomment `main()` and comment out `test_best_model()` at the bottom:
 
 ```python
 if __name__ == "__main__":
@@ -20,7 +20,7 @@ if __name__ == "__main__":
 Then run:
 
 ```bash
-python main.py
+python genetic_mario.py.py
 ```
 
 The best model from each generation is automatically saved to `models/` as a `.npy` file. Training metrics are logged to `logs/training_log.csv`.
